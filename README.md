@@ -1,1 +1,2 @@
 # LocalNetEspIotDevice
+一個簡單的基於Esp32的智能家居系統，帶一個UWP的UI，計劃在樹莓派上跑做分佈式系統的中心
