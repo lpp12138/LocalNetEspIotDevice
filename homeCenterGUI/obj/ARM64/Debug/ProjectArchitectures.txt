@@ -1,0 +1,1 @@
+C:\Users\lpp\source\repos\hs_autonet\homeCenterGUI\homeCenterGUI.csproj;arm64

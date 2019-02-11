@@ -1,0 +1,2 @@
+obj\ARM64\Debug\split.pri
+obj\ARM64\Debug\split.map.txt

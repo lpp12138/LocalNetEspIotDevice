@@ -1,0 +1,44 @@
+﻿<Page
+    x:Class="homeCenterGUI.PageFolder.Page2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:homeCenterGUI.PageFolder"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="Auto" Width="Auto">
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="12*"/>
+            <RowDefinition Height="18*"/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="14*"/>
+            <RowDefinition Height="11*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="120*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="105*"/>
+            <ColumnDefinition Width="56*"/>
+            <ColumnDefinition Width="91*"/>
+            <ColumnDefinition Width="92*"/>
+            <ColumnDefinition Width="91*"/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Page2" FontSize="24" HorizontalAlignment="Stretch" Margin="0,0,0,0" VerticalAlignment="Stretch"/>
+        <Button x:ConnectionId='2' x:Name="UDP_Send_Button" Content="UDP Send" HorizontalAlignment="Left" VerticalAlignment="Center"                                Grid.Row="1" Grid.Column="6" FontFamily="Segoe UI" FontSize="{ThemeResource AutoSuggestBoxIconFontSize}" Height="29" Width="74"/>
+        <TextBlock  TextWrapping="Wrap"  Text="UDP Broadcast:" Grid.Row="1" VerticalAlignment="Top" HorizontalAlignment="Right" FontSize="{ThemeResource AutoSuggestBoxIconFontSize}" Margin="0,0,2,0"  />
+        <TextBox x:ConnectionId='3' x:Name="UdpDataTextBox"  Text="" Grid.Column="1" Grid.ColumnSpan="5" Grid.Row="1" AcceptsReturn="True" FontFamily="Segoe UI" />
+        <TextBlock TextWrapping="Wrap" Text="TCP Server Port:" Grid.Row="4" VerticalAlignment="Center" Margin="0,0,2,0"  FontFamily="Segoe UI" FontSize="{ThemeResource AutoSuggestBoxIconFontSize}" Height="16" HorizontalAlignment="Right" Width="84" />
+        <TextBox x:ConnectionId='4' x:Name="TcpPortTextBox" Text="2334" Grid.Column="1" Grid.Row="3" FontSize="{ThemeResource AutoSuggestBoxIconFontSize}" Grid.RowSpan="2" Margin="0,0,0,0" />
+        <Button x:ConnectionId='5' x:Name="ServerStartButton" Content="Server Start" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="4" Grid.Column="2"                                 FontFamily="Segoe UI" FontSize="{ThemeResource AutoSuggestBoxIconFontSize}" Height="29" Width="81"/>
+        <TextBlock Text="TCP Receive:" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="6" FontFamily="Segoe UI" Margin="0,0,2,0" FontSize="{ThemeResource AutoSuggestBoxIconFontSize}" Height="16" HorizontalAlignment="Right" Width="66"/>
+        <TextBox x:ConnectionId='6' x:Name="TcpReceiveTextbox"  Text=""  Grid.Row="6" Grid.Column="1" Grid.RowSpan="2" Grid.ColumnSpan="5" AcceptsReturn="True" FontSize="{ThemeResource AutoSuggestBoxIconFontSize}" HorizontalAlignment="Stretch" Margin="0,0,0,0" />
+    </Grid>
+</Page>
+

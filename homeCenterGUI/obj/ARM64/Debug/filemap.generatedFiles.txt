@@ -1,0 +1,2 @@
+obj\ARM64\Debug\filemap.pri
+obj\ARM64\Debug\filemap.map.txt

@@ -1,0 +1,2 @@
+MainPackage=C:\Users\lpp\source\repos\hs_autonet\homeCenterGUI\bin\x86\Debug\homeCenterGUI_0.0.1.0_x86_Debug.appx
+SymbolPackage=C:\Users\lpp\source\repos\hs_autonet\homeCenterGUI\AppPackages\homeCenterGUI_0.0.1.0_Debug_Test\homeCenterGUI_0.0.1.0_x86_Debug.appxsym

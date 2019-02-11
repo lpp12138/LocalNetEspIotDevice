@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="homeCenterGUI.PageFolder.Page1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:homeCenterGUI.PageFolder"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock Text="Page1" FontSize="24"/>
+        <Button x:Name="SwitchButton" Content="Start" Grid.Column="1"  Grid.Row="1" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="SwitchButton_Click"  />
+        <Button x:Name="RefreshButton" Content="Refresh" Grid.Column="2"  Grid.Row="1" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="RefreshButton_Click" />
+        <Button Content="Undefinded" Grid.Column="3"  Grid.Row="1" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Button Content="Undefinded" Grid.Column="1"  Grid.Row="2" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Button Content="Undefinded" Grid.Column="2"  Grid.Row="2" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Button Content="Undefinded" Grid.Column="3"  Grid.Row="2" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Button Content="Undefinded" Grid.Column="1"  Grid.Row="3" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Button Content="Undefinded" Grid.Column="2"  Grid.Row="3" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Button Content="Undefinded" Grid.Column="3"  Grid.Row="3" Margin="5,5,5,5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+    </Grid>
+</Page>
